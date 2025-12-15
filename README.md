@@ -1,8 +1,5 @@
 # Análisis de Series Temporales en Sistemas Críticos
 
-Este es un mensaje de prueba
-Y aquí una segunda prueba
-
 Proyecto para analizar variabilidad temporal en sistemas críticos utilizando el modelo de Ising y redes booleanas aleatorias (RBN).
 
 ## Descripción
