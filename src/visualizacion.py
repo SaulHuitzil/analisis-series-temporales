@@ -128,6 +128,7 @@ def graficar_variabilidad_comparativa(series: Dict[str, np.ndarray],
     bars = ax3.bar(nombres, variabilidades, color=colores, alpha=0.7)
     ax3.set_title("Variabilidad (Desviación Estándar)", fontsize=12, fontweight='bold')
     ax3.set_ylabel("Desviación Estándar")
+    plt.setp(ax3.get_xticklabels(), rotation=45, ha='right')
     ax3.grid(True, alpha=0.3, axis='y')
 
     # Añadir valores sobre las barras
